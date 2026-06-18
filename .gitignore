@@ -1,0 +1,54 @@
+# --- Data files (do not commit metadata or images) ---
+data/*
+!data/README.md
+*.xlsx
+*.xls
+*.csv
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+*.gif
+
+# --- Outputs, checkpoints, logs ---
+outputs/*
+!outputs/README.md
+*.pth
+*.pt
+*.ckpt
+*.json
+*.log
+logs/
+runs/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- NLTK / model caches ---
+nltk_data/
+.cache/
+
+# --- Notebooks / editors / OS ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
